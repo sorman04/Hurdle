@@ -22,7 +22,8 @@ class Hurdle(BaseEstimator, ClassifierMixin):
     none
     '''
 
-    def __init__(self, classifier=LogisticRegression(),
+    def __init__(self, 
+                 classifier=LogisticRegression(),
                  regressor=LinearRegression()):
         '''
         '''
